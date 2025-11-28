@@ -15,6 +15,9 @@ if (imc < 18.5) {
     console.log("Obesidade grau 1");
 } else if (imc < 40) {
     console.log("Obesidade grau 2");
-} else {
-    console.log("Obesidade grau 3");
+} else {console.log("Obesidade grau 3");
+
 }
+    
+
+ alert("Seu IMC é: " + imc.toFixed(2) + "\nClassificação: " + classificação);

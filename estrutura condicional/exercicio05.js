@@ -9,6 +9,19 @@ let n3 = parseFloat(prompt("Digite o terceiro número:"));
 
 if (n1 < n2 && n2 < n3) {
     alert("Os números estão em ordem crescente.");
-} else {
-    alert("Os números NÃO estão em ordem crescente.");
+// } else {
+//     alert("Os números NÃO estão em ordem crescente.");
+// 
 }
+    //verificar o decrescente
+if (n1 > n2 && n2 > n3) {
+    alert("Os numeros estão em ordem decrescente ")
+}
+// verificar o aleatório
+
+else {
+    alert("Os numeros estao em ordem aleatória");
+}
+
+
+
